@@ -88,6 +88,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\thirdparty\wooting-rgb-sdk\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -140,6 +141,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="rgb-noise.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\thirdparty\wooting-rgb-sdk\windows\wooting-rgb-sdk.vcxproj">
+      <Project>{6c6db7e9-2fac-4d27-a2b4-1bfa6fc7cf0a}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
