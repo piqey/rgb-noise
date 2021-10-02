@@ -18,9 +18,15 @@
     <ClCompile Include="rgb-noise.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="perlin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="rgb-noise.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="perlin.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

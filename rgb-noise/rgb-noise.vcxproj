@@ -141,6 +141,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="perlin.cpp" />
     <ClCompile Include="rgb-noise.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -149,6 +150,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="perlin.h" />
     <ClInclude Include="rgb-noise.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
