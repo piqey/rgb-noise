@@ -20,7 +20,7 @@ int main()
 
 		Sleep(250);
 
-		wooting_rgb_reset_rgb();
+		wooting_rgb_reset();
 	}
 	else
 	{
