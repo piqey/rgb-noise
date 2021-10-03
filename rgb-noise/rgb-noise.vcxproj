@@ -141,10 +141,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="animation.cpp" />
+    <ClCompile Include="menu.cpp" />
     <ClCompile Include="perlin.cpp" />
     <ClCompile Include="rgb-noise.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="animation.h" />
+    <ClInclude Include="menu.h" />
     <ClInclude Include="perlin.h" />
     <ClInclude Include="rgb-noise.h" />
   </ItemGroup>

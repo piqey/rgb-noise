@@ -1,8 +1,8 @@
 #include <iostream>
 #include <cstdlib>
+#include <thread>
+#include <Windows.h>
 #include "wooting-rgb-sdk.h"
-#include "perlin.h"
 
-void exiting();
-
-int rand(int);
+#include "animation.h"
+#include "menu.h"
