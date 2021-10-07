@@ -29,17 +29,17 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="rgb-noise.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="perlin.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="animation.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="menu.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="perlin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rgb-noise.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
