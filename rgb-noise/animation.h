@@ -1,3 +1,5 @@
+#pragma once
+
 #include "wooting-rgb-sdk.h"
 #include "perlin.h"
 

@@ -1,3 +1,5 @@
+#pragma once
+
 #include <iostream>
 #include "wooting-rgb-sdk.h"
 
